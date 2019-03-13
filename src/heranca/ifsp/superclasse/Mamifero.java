@@ -9,6 +9,22 @@ package heranca.ifsp.superclasse;
  *
  * @author IFSP
  */
-public class Mamifero {
+public abstract class Mamifero {
+    private boolean bebeLeite;
+    private boolean gestacao;
+    public boolean isBebeLeite() {
+        return bebeLeite;
+    }
+    
+    public Mamifero(){
+        this.bebeLeite = true;
+        this.gestacao = true;
+    }
+
+    public boolean isGestacao() {
+        return gestacao;
+    }
+    
+    
     
 }

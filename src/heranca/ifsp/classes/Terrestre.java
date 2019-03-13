@@ -11,6 +11,27 @@ import heranca.ifsp.superclasse.Mamifero;
  *
  * @author IFSP
  */
-public class Terrestre extends Mamifero{
+public abstract class Terrestre extends Mamifero{
+    private boolean anda;
+    private boolean temPatas;
+   public Terrestre(){
+       
+   }
+
+    public boolean isAnda() {
+        return anda;
+    }
+
+    public void setAnda(boolean anda) {
+        this.anda = anda;
+    }
+
+    public boolean isTemPatas() {
+        return temPatas;
+    }
+
+    public void setTemPatas(boolean temPatas) {
+        this.temPatas = temPatas;
+    }
     
 }

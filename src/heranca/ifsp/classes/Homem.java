@@ -10,5 +10,19 @@ package heranca.ifsp.classes;
  * @author IFSP
  */
 public class Homem extends Terrestre{
+    private boolean trabalha;
+    private boolean raciocina;
+    public Homem(){
+        this.trabalha = true;
+        this.raciocina = true;
+    }
+
+    public boolean isTrabalha() {
+        return trabalha;
+    }
+
+    public boolean isRaciocina() {
+        return raciocina;
+    }
     
 }

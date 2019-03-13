@@ -10,5 +10,7 @@ package heranca.ifsp.classes;
  * @author IFSP
  */
 public class Baleia extends Aquatico {
-    
+    public Baleia(){
+        super.setProfundidadeAtingida(300.00F);
+    }
 }

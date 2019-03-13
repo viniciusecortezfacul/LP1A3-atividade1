@@ -11,6 +11,32 @@ import heranca.ifsp.superclasse.Mamifero;
  *
  * @author IFSP
  */
-public class Aquatico extends Mamifero {
+public abstract class Aquatico extends Mamifero {
+    private boolean nada;
+    private float profundidadeAtingida;
+    
+    public Aquatico(){
+        this.nada = true;
+    }
+
+    public boolean isNada() {
+        return nada;
+    }
+
+    public void setNada(boolean nada) {
+        this.nada = nada;
+    }
+
+    public float getProfundidadeAtingida() {
+        return profundidadeAtingida;
+    }
+
+    public void setProfundidadeAtingida(float profundidadeAtingida) {
+        this.profundidadeAtingida = profundidadeAtingida;
+    }
+    
+    
+    
+    
     
 }
